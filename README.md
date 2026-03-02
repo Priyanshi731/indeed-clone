@@ -43,15 +43,7 @@ React UI → Spring Boot REST API → Hibernate → MongoDB
 
 ---
 
-## 📸 Screenshots
 
-### 🖥 Frontend UI
-![Frontend](screenshots/frontend.png)
-
-### 🗄 Backend (MongoDB Data)
-![Backend](screenshots/backend.png)
-
----
 
 ## 📂 Folder Structure
 
