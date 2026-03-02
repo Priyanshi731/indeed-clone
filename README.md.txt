@@ -1,23 +1,118 @@
-# Indeed Job Portal Clone
+# 💼 Indeed Clone
 
-Tech Stack: React.js | Material UI | Spring Boot | Java | Hibernate | MongoDB
+A full-stack **Indeed Job Portal Clone** built using **Spring Boot**, **React**, **Material UI**, **MongoDB Compass**, and **Hibernate**.
 
-This is an in-progress full-stack project where I built the frontend using React + Material UI  
-and I am currently integrating backend Spring Boot APIs with MongoDB.
+This project allows users to search and explore job listings similar to the Indeed platform.
 
-## 🚀 How to Run
+---
 
-### Frontend
-cd client  
-npm install  
-npm start  
+## 🚀 Features
 
-### Backend
-cd server  
-mvn spring-boot:run  
+* Search Jobs by Title
+* View Company Details
+* View Job Descriptions
+* Browse Job Listings
+* Responsive UI using Material UI
+* Full-stack integration (React + Spring Boot)
+* MongoDB Database Integration
 
-(Make sure MongoDB is running)
+No authentication system included (open job browsing system)
 
-## 📌 Status
-Frontend: Completed  
-Backend: In Progress (MongoDB CRUD + API integration)
+---
+
+## 🧠 Tech Stack
+
+Frontend:
+
+* React (Vite)
+* Material UI
+* Axios
+
+Backend:
+
+* Spring Boot
+* Spring Data
+* Hibernate
+
+Database:
+
+* MongoDB Compass
+
+---
+
+## ⚙️ Project Architecture
+
+React UI → Spring Boot REST API → Hibernate → MongoDB
+
+---
+
+## 📂 Folder Structure
+
+indeed-clone/
+
+backend/            # Spring Boot Application
+frontend/           # React Application
+README.md
+
+---
+
+## 🔌 API Functionality
+
+The backend provides APIs to:
+
+* Fetch job listings
+* Search jobs
+* View job details
+
+---
+
+## 🧪 Tested Using
+
+* Browser UI
+* MongoDB Compass
+
+---
+
+## 🛠 Setup Instructions
+
+Backend:
+
+cd backend
+mvn spring-boot:run
+
+Frontend:
+
+cd frontend
+npm install
+npm run dev
+
+Database Setup:
+
+1. Open MongoDB Compass
+2. Create database (example: indeedDB)
+3. Add this in application.properties:
+
+spring.data.mongodb.uri=mongodb://localhost:27017/indeedDB
+
+---
+
+## 🖥 Application Flow
+
+User → React UI → Spring Boot API → MongoDB → Job Data Displayed
+
+---
+
+## 📌 Future Improvements
+
+* Authentication
+* Job Apply Feature
+* Admin Panel
+* Saved Jobs
+
+---
+
+## 👩‍💻 Author
+
+Priyanshi Kumari
+MCA Student | Full Stack Developer
+GitHub: Priyanshi731
